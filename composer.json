@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DoBi\\Core\\Logger": "Classes/" 
+            "DoBi\\Core\\Logger\\": "Classes/"
         }
     },
     "authors": [
