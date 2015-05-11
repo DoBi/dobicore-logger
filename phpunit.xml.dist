@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="Tests/bootstrap.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         verbose="true">
+  <testsuites>
+    <testsuite name="DoBi\Core\Logger">
+      <directory suffix="Test.php">Tests/</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
