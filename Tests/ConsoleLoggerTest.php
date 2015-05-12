@@ -23,9 +23,6 @@ class ConsoleLoggerTest extends LoggerInterfaceTest {
         $this->assertInstanceOf('DoBi\Core\Logger\CoreLogger', $this->getLogger());
     }
 
-    /**
-     * @outputBuffering disabled
-     */
     public function testConsoleOutput() {
         $expectedOutput = 'info test 123';
 
