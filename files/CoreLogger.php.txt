@@ -1,9 +1,17 @@
 <?php
+/**
+ * The abstract CoreLogger class
+ *
+ * @author Dominik Bittner <DoBi-tyndur@gmx.net>
+ */
 
 namespace DoBi\Core\Logger;
 
 use Psr\Log\AbstractLogger;
 
+/**
+ * This class implements basic functions for all loggers
+ */
 abstract class CoreLogger extends AbstractLogger {
     /**
      * An array with all logs

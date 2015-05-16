@@ -1,9 +1,18 @@
 <?php
+/**
+ * A logger for a web console like firebug
+ *
+ * @author Dominik Bittner <DoBi-tyndur@gmx.net>
+ */
 
 namespace DoBi\Core\Logger;
 
 use Psr\Log\InvalidArgumentException;
 
+/**
+ * This logger creates a javascript which could be interpreted by firebug and
+ * some other web consoles
+ */
 class WebConsoleLogger extends CoreLogger {
     /**
      * Logs with an arbitrary level.
