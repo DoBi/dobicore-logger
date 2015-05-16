@@ -1,9 +1,17 @@
 <?php
+/**
+ * A command line logger
+ *
+ * @author Dominik Bittner <DoBi-tyndur@gmx.net>
+ */
 
 namespace DoBi\Core\Logger;
 
 use Psr\Log\InvalidArgumentException;
 
+/**
+ * This logger simply prints the logs to the command line
+ */
 class ConsoleLogger extends CoreLogger {
     /**
      * Logs with an arbitrary level.
