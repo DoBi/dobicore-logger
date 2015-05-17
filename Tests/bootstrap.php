@@ -15,7 +15,9 @@ function deleteDir($dir) {
     return rmdir($dir);
 }
 
-deleteDir(TMP);
+if (is_dir(TMP)) {
+    deleteDir(TMP);
+}
 
 mkdir (TMP);
 mkdir (TMP_READ_ONLY, 0400);
