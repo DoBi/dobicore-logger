@@ -53,51 +53,51 @@
 <path fill="none" stroke="gray" d="M322,-44C322,-38 328,-32 334,-32"/>
 <text text-anchor="middle" x="472" y="-200.1" font-family="Times Roman,serif" font-size="11.00" fill="gray">Logger</text>
 </g>
-<!-- \\DoBi\\Core\\Logger\\FileLogger -->
-<g id="node5" class="node"><title>\\DoBi\\Core\\Logger\\FileLogger</title>
-<polygon fill="none" stroke="black" points="593,-184 509,-184 509,-148 593,-148 593,-184"/>
-<text text-anchor="middle" x="551" y="-163.1" font-family="Courier,monospace" font-size="11.00">FileLogger</text>
+<!-- \\DoBi\\Core\\Logger\\WebConsoleLogger -->
+<g id="node5" class="node"><title>\\DoBi\\Core\\Logger\\WebConsoleLogger</title>
+<polygon fill="none" stroke="black" points="613,-184 489,-184 489,-148 613,-148 613,-184"/>
+<text text-anchor="middle" x="551" y="-163.1" font-family="Courier,monospace" font-size="11.00">WebConsoleLogger</text>
 </g>
 <!-- \\DoBi\\Core\\Logger\\CoreLogger -->
-<g id="node8" class="node"><title>\\DoBi\\Core\\Logger\\CoreLogger</title>
+<g id="node7" class="node"><title>\\DoBi\\Core\\Logger\\CoreLogger</title>
 <polygon fill="none" stroke="black" points="415,-130 331,-130 331,-94 415,-94 415,-130"/>
 <text text-anchor="start" x="339" y="-117.433" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
 <text text-anchor="start" x="339" y="-104.233" font-family="Courier,monospace" font-size="11.00">CoreLogger</text>
 </g>
-<!-- \\DoBi\\Core\\Logger\\FileLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger -->
-<g id="edge6" class="edge"><title>\\DoBi\\Core\\Logger\\FileLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger</title>
-<path fill="none" stroke="black" d="M508.816,-153.203C483.93,-145.653 452.215,-136.032 425.693,-127.985"/>
-<polygon fill="none" stroke="black" points="426.392,-124.54 415.807,-124.986 424.36,-131.239 426.392,-124.54"/>
-</g>
-<!-- \\DoBi\\Core\\Logger\\ConsoleLogger -->
-<g id="node6" class="node"><title>\\DoBi\\Core\\Logger\\ConsoleLogger</title>
-<polygon fill="none" stroke="black" points="603,-130 499,-130 499,-94 603,-94 603,-130"/>
-<text text-anchor="middle" x="551" y="-109.1" font-family="Courier,monospace" font-size="11.00">ConsoleLogger</text>
-</g>
-<!-- \\DoBi\\Core\\Logger\\ConsoleLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger -->
-<g id="edge8" class="edge"><title>\\DoBi\\Core\\Logger\\ConsoleLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger</title>
-<path fill="none" stroke="black" d="M498.557,-112C475.613,-112 448.746,-112 425.765,-112"/>
-<polygon fill="none" stroke="black" points="425.508,-108.5 415.508,-112 425.508,-115.5 425.508,-108.5"/>
-</g>
-<!-- \\DoBi\\Core\\Logger\\WebConsoleLogger -->
-<g id="node7" class="node"><title>\\DoBi\\Core\\Logger\\WebConsoleLogger</title>
-<polygon fill="none" stroke="black" points="613,-76 489,-76 489,-40 613,-40 613,-76"/>
-<text text-anchor="middle" x="551" y="-55.1" font-family="Courier,monospace" font-size="11.00">WebConsoleLogger</text>
-</g>
 <!-- \\DoBi\\Core\\Logger\\WebConsoleLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger -->
-<g id="edge10" class="edge"><title>\\DoBi\\Core\\Logger\\WebConsoleLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger</title>
-<path fill="none" stroke="black" d="M491.233,-76.1314C469.969,-82.5826 446.199,-89.7935 425.581,-96.0485"/>
-<polygon fill="none" stroke="black" points="424.29,-92.7824 415.737,-99.0348 426.323,-99.4809 424.29,-92.7824"/>
+<g id="edge6" class="edge"><title>\\DoBi\\Core\\Logger\\WebConsoleLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger</title>
+<path fill="none" stroke="black" d="M491.233,-147.869C469.969,-141.417 446.199,-134.206 425.581,-127.952"/>
+<polygon fill="none" stroke="black" points="426.323,-124.519 415.737,-124.965 424.29,-131.218 426.323,-124.519"/>
+</g>
+<!-- \\DoBi\\Core\\Logger\\FileLogger -->
+<g id="node6" class="node"><title>\\DoBi\\Core\\Logger\\FileLogger</title>
+<polygon fill="none" stroke="black" points="593,-130 509,-130 509,-94 593,-94 593,-130"/>
+<text text-anchor="middle" x="551" y="-109.1" font-family="Courier,monospace" font-size="11.00">FileLogger</text>
+</g>
+<!-- \\DoBi\\Core\\Logger\\FileLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger -->
+<g id="edge8" class="edge"><title>\\DoBi\\Core\\Logger\\FileLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger</title>
+<path fill="none" stroke="black" d="M508.816,-112C484.039,-112 452.495,-112 426.044,-112"/>
+<polygon fill="none" stroke="black" points="425.807,-108.5 415.807,-112 425.807,-115.5 425.807,-108.5"/>
 </g>
 <!-- \\Psr\\Log\\AbstractLogger -->
-<g id="node13" class="node"><title>\\Psr\\Log\\AbstractLogger</title>
+<g id="node12" class="node"><title>\\Psr\\Log\\AbstractLogger</title>
 <ellipse fill="none" stroke="black" cx="129" cy="-112" rx="128.193" ry="18.3848"/>
 <text text-anchor="middle" x="129" y="-108.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\Psr\Log\AbstractLogger</text>
 </g>
 <!-- \\DoBi\\Core\\Logger\\CoreLogger&#45;&gt;\\Psr\\Log\\AbstractLogger -->
-<g id="edge12" class="edge"><title>\\DoBi\\Core\\Logger\\CoreLogger&#45;&gt;\\Psr\\Log\\AbstractLogger</title>
+<g id="edge10" class="edge"><title>\\DoBi\\Core\\Logger\\CoreLogger&#45;&gt;\\Psr\\Log\\AbstractLogger</title>
 <path fill="none" stroke="black" d="M330.498,-112C312.539,-112 290.508,-112 267.684,-112"/>
 <polygon fill="none" stroke="black" points="267.509,-108.5 257.509,-112 267.509,-115.5 267.509,-108.5"/>
+</g>
+<!-- \\DoBi\\Core\\Logger\\ConsoleLogger -->
+<g id="node8" class="node"><title>\\DoBi\\Core\\Logger\\ConsoleLogger</title>
+<polygon fill="none" stroke="black" points="603,-76 499,-76 499,-40 603,-40 603,-76"/>
+<text text-anchor="middle" x="551" y="-55.1" font-family="Courier,monospace" font-size="11.00">ConsoleLogger</text>
+</g>
+<!-- \\DoBi\\Core\\Logger\\ConsoleLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger -->
+<g id="edge12" class="edge"><title>\\DoBi\\Core\\Logger\\ConsoleLogger&#45;&gt;\\DoBi\\Core\\Logger\\CoreLogger</title>
+<path fill="none" stroke="black" d="M498.557,-73.9097C475.406,-80.9329 448.261,-89.1679 425.145,-96.1807"/>
+<polygon fill="none" stroke="black" points="424.061,-92.8519 415.508,-99.1043 426.094,-99.5504 424.061,-92.8519"/>
 </g>
 </g>
 </svg>
