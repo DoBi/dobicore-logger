@@ -13,10 +13,16 @@ use Psr\Log\InvalidArgumentException;
  * This logger simply prints the logs to a file
  */
 class FileLogger extends CoreLogger {
+    /**
+     * The logfiles filehandle
+     * @var resource
+     */
     protected $fileHandle;
 
     /**
      * Creates a new FileLogger and opens the log file
+     *
+     * @param string $file The path to the logfile
      */
     public function __construct($file) {
         if (!is_writable(substr($file, 0, strrpos($file, '/')))) {
