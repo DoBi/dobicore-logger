@@ -13,6 +13,7 @@
             "DoBi\\Core\\Logger\\": "Classes/"
         }
     },
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Dominik Bittner",

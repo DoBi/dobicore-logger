@@ -8,6 +8,12 @@ php:
   - hhvm-nightly
   - nightly
 
+matrix:
+  allow_failures:
+    - php: hhvm
+    - php: hhvm-nightly
+
+
 before_script:
   # Install graphviz for the creation of the documentation
   - "sudo apt-get install graphviz 2>&1 | tail -n 2"
